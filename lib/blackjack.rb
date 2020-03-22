@@ -6,9 +6,9 @@ def deal_card
   # code #deal_card here
 end
 
-def display_card_total(number)
+def display_card_total(card_total)
   # code #display_card_total here
-  puts he method should use puts to output that card total as part of the phrase "Your cards add up to #{card total}"
+  puts he method should use puts to output that card total as part of the phrase "Your cards add up to #{card_total}"
 end
 
 def prompt_user
