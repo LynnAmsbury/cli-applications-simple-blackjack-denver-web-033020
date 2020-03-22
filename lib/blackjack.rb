@@ -67,4 +67,6 @@ def runner
   welcome
   initial_round
   prompt_user
+  get_user_input(current_total)
+  hit?
 end
