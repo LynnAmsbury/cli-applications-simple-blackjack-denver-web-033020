@@ -37,6 +37,7 @@ def initial_round
 end
 
 def hit?(current_total)
+  # code #hit? here
   prompt_user
   user_input = get_user_input
   if user_input == "h"
@@ -51,7 +52,6 @@ def hit?(current_total)
     get_user_input
   end
 end
-
 
 def invalid_command
   # code invalid_command here
